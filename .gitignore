@@ -1,0 +1,40 @@
+# Dependency directories
+node_modules/
+
+# TypeScript build directory
+dist/
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Mac OSX folder attributes
+.DS_Store
+
+# Windows folder attributes
+Thumbs.db
+
+# Express.js generated files
+/public/
+/views/
+
+# Logs
+logs/
+*.log
+
+# NPM debugging logs
+npm-debug.log*
+
+# Yarn logs
+yarn-debug.log*
+yarn-error.log*
+
+#package.lock.json
+package-lock.json*
+

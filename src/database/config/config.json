@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "codelegos",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "your_test_db_username",
+    "password": "your_test_db_password",
+    "database": "your_test_db_name",
+    "host": "your_test_db_host",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "your_prod_db_username",
+    "password": "your_prod_db_password",
+    "database": "your_prod_db_name",
+    "host": "your_prod_db_host",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}

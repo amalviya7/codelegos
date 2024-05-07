@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@routes/*": ["./routes/*"],
+      "@utils/*": ["./utils/*"],
+      ".commit-id": ["commit-id"]
+    },
+    "target": "es2018",
+    "moduleResolution": "Node",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "rootDir": "./src",
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src/*.ts","src/*.json","src/*.js"],
+  "exclude": ["node_modules"]
+}
